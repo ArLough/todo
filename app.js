@@ -1,3 +1,5 @@
+document.body.addEventListener("click", clear);
+
 
 function newItem(){
     console.log("Inside newItem");
@@ -32,6 +34,17 @@ function newItem(){
 function removeItem(e) {
     
     e.target.remove();
+}
+
+function clear(){
+    console.log("clear button pressed");
+    var li = document.getElementsByTagName("li");
+    console.log(li);
+    for (var i = li.length - 1; i >= 0; i--) {
+        // Remove first element (at [0]) repeatedly
+        li[0].parentNode.removeChild(li[0]);
+      }
+    
 }
 
 document.body.onkeyup = function(e) {
