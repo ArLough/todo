@@ -1,4 +1,4 @@
 # todo
 simple todo list website using HTML, CSS and Javascript
 
-URL: simple-todo-arlough.netlify.app
+URL: https://simple-todo-arlough.netlify.app
