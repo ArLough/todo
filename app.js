@@ -1,4 +1,4 @@
-document.body.addEventListener("click", clear);
+//document.body.addEventListener("click", clear);
 
 
 function newItem(){
