@@ -4,6 +4,14 @@ function newItem(){
     var item = document.getElementById("input").value;
     console.log(item);
 
+    var bolden = false;
+   
+        if(item.charAt(item.length-1) == '!'){
+            bolden = true;
+        }
+
+    
+
     var ul = document.getElementById("list");
 
     var li = document.createElement("li");
@@ -11,6 +19,8 @@ function newItem(){
     li.appendChild(document.createTextNode("- " + item));
 
     li.classList.add("scale-up-hor-left");
+    if(bolden){
+        li.classList.add("bolden")}
 
     ul.appendChild(li);
 
