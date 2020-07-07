@@ -19,6 +19,7 @@ body{
 .wrapper{
   min-height: 85vh;
   padding-bottom: 10vh;
+  padding-top: 2vh;
 }
 
 .bolden{
@@ -42,7 +43,7 @@ footer{
 }
 
 input {
-  margin-top: 5vh;
+  margin-top: 3vh;
  
   width: 500px;
   height: 60px;

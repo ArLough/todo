@@ -1,4 +1,31 @@
 
+window.onload = typeName;
+var greeting = "";
+var hr=(new Date()).getHours();
+if(hr<=12 && hr>=5){
+    greeting = "Good Morning";
+}else if(hr>12 && hr<=18){
+    greeting = "Good Afternoon";
+}else if(hr>18 || (hr>=0 && hr<=2)){
+    greeting = "Good Evening";
+}else{
+    greeting = "Go to sleep";
+}
+var i=0;
+function typeName() {
+    
+  if(i<greeting.length){
+  var nameHeader = document.getElementById("greeting");
+  nameHeader.innerHTML = nameHeader.innerHTML + greeting.charAt(i);
+  i++;
+  setTimeout(typeName, 100);
+}
+
+}
+
+
+
+
 const button = document.querySelector(".clear")
 button.addEventListener("click", event => {
     console.log("clear button pressed");
