@@ -10,13 +10,25 @@ a{
   color:black;
 }
 
-
-body{
-    max-width: 500px;
-    margin: 0 auto;
+h1{
+  font-size: 3em;
 }
 
+h2{
+  font-size: 2em;
+
+}
+h3{
+  font-size: 1.5em;
+
+}
+
+
+
+
 .wrapper{
+  max-width: 500px;
+  margin: 0 auto;
   min-height: 85vh;
   padding-bottom: 10vh;
   padding-top: 2vh;
@@ -32,7 +44,27 @@ button{
 }
 
 
+.top{
+  display: grid;
+  grid-column-gap: auto;
+  grid-template-columns: 500px auto 500px;
+  
+}
 
+.weather{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column: 1;
+}
+
+#greeting{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column: 2;
+  
+  
+  
+}
 
 
 footer{
