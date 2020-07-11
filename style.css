@@ -29,7 +29,7 @@ h3{
 .wrapper{
   max-width: 500px;
   margin: 0 auto;
-  min-height: 85vh;
+  min-height: 65vh;
   padding-bottom: 10vh;
   padding-top: 2vh;
 }
@@ -67,6 +67,12 @@ button{
   Box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
+.weather:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
 #greeting{
   grid-row-start: 1;
   grid-row-end: 2;
@@ -85,7 +91,7 @@ button{
 
 footer{
   
-  padding-bottom: 2vh;
+  
   width:100%;
   text-align: center;
 }
