@@ -3,7 +3,7 @@ html{
   text-align: center;
   background: rgb(121,201,201);
 background: linear-gradient(90deg, rgba(121,201,201,0.6152836134453781) 35%, rgba(0,212,255,1) 100%);
-  
+  padding: 16px;
 }
 
 a{
@@ -40,6 +40,7 @@ h3{
 }
 
 button{
+  
   margin-top: 10px;
 }
 
@@ -55,6 +56,15 @@ button{
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column: 1;
+
+  background-color:#f2f3f4;
+  
+  padding: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 50em;
+  margin: auto;
+  Box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 #greeting{
@@ -62,6 +72,12 @@ button{
   grid-row-end: 2;
   grid-column: 2;
   
+  background-color:#f2f3f4;
+
+  padding: 25px;
+  max-width: 50em;
+  margin: auto;
+  Box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   
   
 }
@@ -83,6 +99,11 @@ input {
   border: 0;
   text-align: center;
   vertical-align: middle;
+
+  
+
+  
+  Box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 input:focus {
