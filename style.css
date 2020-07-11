@@ -71,7 +71,15 @@ button{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-
+.top a{
+  
+  text-decoration: none;
+  padding: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 50em;
+  margin: auto;
+}
 
 #greeting{
   grid-row-start: 1;
